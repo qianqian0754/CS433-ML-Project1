@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "public_tests_passed": 27,
+  "public_tests_deselected": [
+    "GitHub URL format (no repository published)"
+  ],
+  "supplementary_checks": "passed",
+  "prediction_rows": 109379,
+  "positive_predictions": 15761,
+  "ids_match_original_order": true,
+  "sha256": "2aa15d7e98d6a381a3b1adfc86bf45b30ba9ae47fdae03bca80706e944366ac3",
+  "inference_reproduction_identical": true,
+  "report_pages": 2,
+  "report_visually_verified": true
+}
