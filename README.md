@@ -48,14 +48,6 @@ Selected categorical logistic lambda=0.0001, threshold=0.1888708323, 717 trainin
 
 All six methods return final weights and their corresponding unpenalized loss. MSE is half the mean squared residual; logistic loss is mean binary cross-entropy for 0/1 labels. Logistic L2 gradient is 2*lambda*w. Ridge normal equations use 2*N*lambda*I. SGD uses one uniformly drawn observation per iteration. Least squares solves normal equations, with pseudoinverse fallback for singular matrices; it never calls `numpy.linalg.lstsq`. Initial weights are copied.
 
-## Tests
-
-Run the supplied tests from their original course location, using this project directory as `--github_link`. Exclude only `test_github_link_format` for local testing. The GitHub URL check requires an actual public repository commit URL, which has not been created. Supplementary tests:
-
-```sh
-python tests/check_numerics.py
-```
-
 ## Scope and submission
 
 The dataset is a cross-sectional survey with self-reported diagnosed disease; this experiment measures retrospective label classification, not future clinical risk. Some retained health or rehabilitation responses may be consequences of diagnosis. A prospective application needs a feature and temporal leakage audit. Numeric category inference is heuristic, and only one split and four model configurations were evaluated.
