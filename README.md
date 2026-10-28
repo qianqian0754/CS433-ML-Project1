@@ -4,6 +4,7 @@ Here is the group project of Zeming Qu, and .
 
 ## Files
 
+- `requirements.txt`: installation list
 - `implementations.py`: six required estimators, with exact assignment signatures.
 - `pipeline.py`: train-only preprocessing and minibatch Adam logistic regression.
 - `run.py`: complete deterministic training and prediction entry point.
@@ -11,10 +12,7 @@ Here is the group project of Zeming Qu, and .
 - `results/submission.csv`: 109,379 predictions, original test IDs, labels -1/+1.
 - `results/model.pkl`: fitted preprocessing, weights and decision threshold.
 - `results/metrics.json`: all measured tuning and holdout results.
-- `results/feature_profile.csv`: per-feature missingness, distinct counts and quantiles (descriptive only).
-- `results/split_indices.npz`: exact train/tuning/holdout row indices.
 - `report/main.tex`, `report/main.pdf`: two-page report and editable source.
-- `tests/check_numerics.py`: supplementary numerical and preprocessing checks.
 
 ## Reproduce
 
