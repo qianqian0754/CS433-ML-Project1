@@ -1,6 +1,6 @@
 # CS-433 Project 1: heart disease classification
 
-本项目已完成六个指定算法、NumPy 分类流水线、四组对照实验、独立留出评估、全量训练、预测 CSV 和两页英文 LaTeX 报告。未向 GitHub、AIcrowd 或课程系统上传任何内容。报告使用英文以匹配课程模板。
+Here is the group project of Zeming Qu, and .
 
 ## Files
 
@@ -61,5 +61,3 @@ python tests/check_numerics.py
 ## Scope and submission
 
 The dataset is a cross-sectional survey with self-reported diagnosed disease; this experiment measures retrospective label classification, not future clinical risk. Some retained health or rehabilitation responses may be consequences of diagnosis. A prospective application needs a feature and temporal leakage audit. Numeric category inference is heuristic, and only one split and four model configurations were evaluated.
-
-发布或提交前请填写真实团队信息、审核代码和报告，并遵守课程关于 AI 辅助、署名和原创性的政策。此代码和报告由 Codex 根据提供材料生成；实验数字来自本机实际运行。提交步骤：将代码发布到团队 GitHub 仓库，记录固定 commit URL；向 AIcrowd 上传 `results/submission.csv`；向课程系统提交报告及仓库链接。在线分数未测量，报告没有声称已上传。
