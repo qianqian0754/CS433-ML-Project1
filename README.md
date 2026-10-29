@@ -1,6 +1,6 @@
 # CS-433 Project 1: heart disease classification
 
-Here is the group project of Zeming Qu, and .
+Here is the group project of Zeming Qu, Yunhan Zhang and Qianqian Li.
 
 ## Files
 
