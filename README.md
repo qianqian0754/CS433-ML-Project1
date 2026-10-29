@@ -46,8 +46,7 @@ Selected categorical logistic lambda=0.0001, threshold=0.1888708323, 717 trainin
 
 ## Required estimator conventions
 
-All six methods return final weights and their corresponding unpenalized loss. MSE is half the mean squared residual; logistic loss is mean binary cross-entropy for 0/1 labels. Logistic L2 gradient is 2*lambda*w. Ridge normal equations use 2*N*lambda*I. SGD uses one uniformly drawn observation per iteration. Least squares solves normal equations, with pseudoinverse fallback for singular matrices; it never calls `numpy.linalg.lstsq`. Initial weights are copied.
-
+All six methods return final weights and their corresponding unpenalized loss. MSE is half the mean squared residual; logistic loss is mean binary cross-entropy for 0/1 labels. Logistic L2 gradient is 2*lambda*w. Ridge normal equations use 2*N*lambda*I. SGD uses one uniformly drawn observation per iteration. Least squares solves the normal equations, with a pseudoinverse fallback for singular matrices; it never calls `numpy.linalg.lstsq`. Initial weights are copied.
 ## Scope and submission
 
 The dataset is a cross-sectional survey with self-reported diagnosed disease; this experiment measures retrospective label classification, not future clinical risk. Some retained health or rehabilitation responses may be consequences of diagnosis. A prospective application needs a feature and temporal leakage audit. Numeric category inference is heuristic, and only one split and four model configurations were evaluated.
